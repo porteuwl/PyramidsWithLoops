@@ -1,6 +1,5 @@
 /*
- * Bill Nicholson
-
+ * Luke Porteus
  * nicholdw@ucmail.uc.edu
  * Printing pyramids using loops. It kind-of works. 
  * What I really want is
@@ -15,13 +14,17 @@ package main;
 public class Main {
 
 	public static void main(String[] args) {
-		int lines = 5;
-		for (int i = 0; i < lines; i++) {
-			for (int j = 0; j < i+1; j++) {
-				System.out.print(j);
-			}
-			System.out.println("");
-		}
+		  int rows = 5, k = 0;
+	        for(int i = 1; i <= rows; ++i, k = 0) {
+	            for(int space = 1; space <= rows - i; ++space) {
+	                System.out.print("  ");
+	            }
+	            while(k != 2 * i - 1) {
+	                System.out.print("1 ");
+	                ++k;
+	            }
+	            System.out.println();
+	        }
+	    }
 	}
-}
  

@@ -1,6 +1,6 @@
 /*
  * Luke Porteus
- * nicholdw@ucmail.uc.edu
+ * porteuwl@mail.uc.edu
  * Printing pyramids using loops. It kind-of works. 
  * What I really want is
         1
@@ -10,7 +10,7 @@
     555555555 
 */
 package main; 
- 
+  
 public class Main {
 
 	public static void main(String[] args) {
@@ -27,4 +27,4 @@ public class Main {
 	        }
 	    }
 	}
- 
+  
